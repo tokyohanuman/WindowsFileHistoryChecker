@@ -9,6 +9,11 @@ traverse directories
     check with SOME COLLATION for the same name
     list the same-name entries
 
+config
+
+C:\Users\user\AppData\Local\Microsoft\Windows\FileHistory\Configuration\Config1.xml (config1.xml and config2.xml are identical)
+path is written in somewhere in Registry
+
 
 info:
 

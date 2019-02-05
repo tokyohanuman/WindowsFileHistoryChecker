@@ -8,3 +8,8 @@ traverse directories
     list entries (any types, files, directories, ...)
     check with SOME COLLATION for the same name
     list the same-name entries
+
+
+info:
+
+fsutil file setCaseSensitiveInfo でディレクトリ単位で case sensitive にできるらしい。linux との互換性を考えた措置だろうけど影響があるのか？

@@ -1,0 +1,10 @@
+アルゴリズム memo
+
+prereq: setup file history (windows feature)
+
+the program:
+read config file for the list of directories
+traverse directories
+    list entries (any types, files, directories, ...)
+    check with SOME COLLATION for the same name
+    list the same-name entries

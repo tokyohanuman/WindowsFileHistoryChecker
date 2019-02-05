@@ -13,3 +13,5 @@ traverse directories
 info:
 
 fsutil file setCaseSensitiveInfo でディレクトリ単位で case sensitive にできるらしい。linux との互換性を考えた措置だろうけど影響があるのか？
+（file system はもともと別。windows os が（互換性のため）case insensitive 動作をしている）
+windows 10 1803 からっぽい

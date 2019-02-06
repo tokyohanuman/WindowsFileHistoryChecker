@@ -17,6 +17,22 @@ path is written in somewhere in Registry
 
 info:
 
+全角半角
+ひらがなカタカナ
+は同一視される
+
+VB （もちろん古いやっちゃ）のStrComp関数のテキストモード vbTextCompare で比較しているかのような
+という感想がある
+（StrComp には bDatabaseCompare なんてのもある）
+vba （office など）、vbscript もたぶん同じ
+
+
+その他ファイル履歴の問題点など
+https://jinblog.at.webry.info/201311/article_1.html
+
+ううん、別のツールにしようか……
+
+
 fsutil file setCaseSensitiveInfo でディレクトリ単位で case sensitive にできるらしい。linux との互換性を考えた措置だろうけど影響があるのか？
 （file system はもともと別。windows os が（互換性のため）case insensitive 動作をしている）
 windows 10 1803 からっぽい
